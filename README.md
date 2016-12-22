@@ -1,1 +1,3 @@
 # haskellStudy
+
+Just learn haskell.
