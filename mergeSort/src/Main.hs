@@ -1,6 +1,5 @@
 module Main where
 import Control.Monad.Writer
-import Control.Monad.Reader
 
 
 merge [] xs = xs
@@ -19,7 +18,6 @@ mergesort l [] = do
 
 mergesort l s@[x] = do
   return [x]
-
 mergesort l s@xs = do
   tell $ (indent l.showString "mergesort:   ".shows s.showString "\n") ""
   let (a1,a2) = splitAt (length s `div` 2) xs
