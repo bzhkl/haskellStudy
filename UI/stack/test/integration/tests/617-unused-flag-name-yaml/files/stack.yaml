@@ -1,0 +1,4 @@
+resolver: ghc-7.10
+flags:
+    files:
+        does-not-exist: false

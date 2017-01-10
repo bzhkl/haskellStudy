@@ -1,0 +1,3 @@
+compiler: ghc-7.10
+packages:
+- mtl-2.2.1
