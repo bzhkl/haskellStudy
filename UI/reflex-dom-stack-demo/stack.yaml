@@ -44,11 +44,13 @@ packages:
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
-extra-deps: 
+extra-deps:
 - ref-tf-0.4.0.1
 - zenc-0.1.1
 - prim-uniq-0.1.0.1
 - webkitgtk3-javascriptcore-0.13.2.0
+- text-1.2.2.1
+- Safe-0.1
 
 # Override default flag values for local packages and extra-deps
 flags: {}
