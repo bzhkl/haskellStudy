@@ -1,0 +1,22 @@
+packages:
+- '.'
+- location: 
+    git: https://github.com/tolysz/double-conversion
+    commit: 4ae204a688c29d612809d6f9200204b98c4e1d51
+  extra-dep: true
+extra-deps:
+- rawstring-qm-0.2.3.0
+
+flags: {}
+extra-package-dbs: []
+
+resolver: lts-6.25
+compiler: ghcjs-0.2.0.9006025_ghc-7.10.3
+compiler-check: match-exact
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.0.9006025_ghc-7.10.3:
+         url: http://ghcjs.tolysz.org/lts-6.25-9006025.tar.gz
+         sha1: 3c87228579b55c05e227a7876682c2a7d4c9c007
