@@ -15,6 +15,7 @@ packages:
 - '../reflex'
 - '../ghcjs-dom'
 - '../reflex-dom'
+- '../hashable'
 - extra-dep: true
   location:
         git: https://github.com/ghcjs/ghcjs-base.git
@@ -27,9 +28,11 @@ extra-deps:
 - text-1.2.2.1
 - Safe-0.1
 - dependent-map-0.2.4.0
-- hashable-1.2.3.3
 
-flags: {}
+
+flags: 
+  dependent-map:
+    VERSION_integer_gmp: FALSE
 
 
 extra-package-dbs: []
