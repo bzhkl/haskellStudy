@@ -1,0 +1,24 @@
+
+resolver: lts-7.15
+
+packages:
+- '.'
+- '../reflex'
+- '../ghcjs-dom'
+- '../reflex-dom'
+
+extra-deps:
+- ref-tf-0.4.0.1
+- zenc-0.1.1
+- prim-uniq-0.1.0.1
+- webkitgtk3-javascriptcore-0.13.2.0
+- text-1.2.2.1
+- Safe-0.1
+
+
+flags: {}
+
+
+extra-package-dbs: []
+
+
