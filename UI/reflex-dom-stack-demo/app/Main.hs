@@ -25,7 +25,7 @@ main = mainWidget $ el "div" $ do
 numberInput :: (MonadWidget t m) => m (Dynamic t (Maybe Double))
 numberInput = do
   let errorState = "style" =: "border-color: red"
-      validState = "style" =: "border-color: green"
+      validState = "style" =: "border-color: blue"
   rec n <- textInput $ def & textInputConfig_inputType .~ "number"
                            & textInputConfig_initialValue .~ "0"
                            & textInputConfig_attributes .~ attrs
