@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Begin to setup
+stack setup
+echo Begin to build
+stack build
