@@ -1,5 +1,5 @@
 #!/bin/bash
-echo Begin to setup
+echo Begin to setup use ghcjs
 stack setup
-echo Begin to build
+echo Begin to build use ghcjs
 stack build

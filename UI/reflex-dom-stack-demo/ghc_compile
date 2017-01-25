@@ -1,5 +1,5 @@
 #!/bin/bash
 echo Begin to setup ghc
-stack setup
+stack setup --stack-yaml stackghc.yaml
 echo Begin to build use ghc
-stack build
+stack build --stack-yaml stackghc.yaml
