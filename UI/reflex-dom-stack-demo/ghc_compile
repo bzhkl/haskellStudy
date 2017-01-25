@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Begin to setup ghc
+stack setup
+echo Begin to build use ghc
+stack build
