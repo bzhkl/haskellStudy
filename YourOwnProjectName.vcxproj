@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Debug|Win32">
+            <Configuration>Debug</Configuration>
+            <Platform>Win32</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <PropertyGroup Label="Globals">
+        <ProjectGuid>b49e888e-945b-4a20-8d4c-c6550397c2be</ProjectGuid>
+        <Keyword>MakeFileProj</Keyword>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\\Microsoft.Cpp.Default.props" />
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+        <ConfigurationType>Makefile</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v120</PlatformToolset>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\\Microsoft.Cpp.props" />
+    <ImportGroup Label="ExtensionSettings">
+    </ImportGroup>
+    <PropertyGroup Label="UserMacros" />
+    <ItemDefinitionGroup>
+    </ItemDefinitionGroup>
+    <Import Project="$(VCTargetsPath)\\Microsoft.Cpp.targets" />
+        <ImportGroup Label="ExtensionTargets">
+    </ImportGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+        <NMakePreprocessorDefinitions></NMakePreprocessorDefinitions>
+        <NMakeIncludeSearchPath>
+            .;
+            .\.vs;
+            .\.vs\YourOwnProjectName;
+            .\.vs\YourOwnProjectName\v14;
+            .\bin;
+            .\Control.Applicative;
+            .\Control.Apply;
+            .\Control.Bind;
+            .\Control.Category;
+            .\Control.Monad;
+            .\Control.Monad.Eff;
+            .\Control.Monad.Eff.Class;
+            .\Control.Monad.Eff.Console;
+            .\Control.Monad.Eff.Unsafe;
+            .\Control.Semigroupoid;
+            .\Data.Boolean;
+            .\Data.BooleanAlgebra;
+            .\Data.Bounded;
+            .\Data.CommutativeRing;
+            .\Data.Eq;
+            .\Data.EuclideanRing;
+            .\Data.Field;
+            .\Data.Function;
+            .\Data.Functor;
+            .\Data.HeytingAlgebra;
+            .\Data.NaturalTransformation;
+            .\Data.Ord;
+            .\Data.Ord.Unsafe;
+            .\Data.Ordering;
+            .\Data.Ring;
+            .\Data.Semigroup;
+            .\Data.Semiring;
+            .\Data.Show;
+            .\Data.Unit;
+            .\Data.Void;
+            .\Debug;
+            .\Debug\YourOwnP.E2BA021F.tlog;
+            .\Main;
+            .\obj;
+            .\obj\Win32;
+            .\obj\Win32\Debug;
+            .\Prelude;
+            .\PureScript;
+        </NMakeIncludeSearchPath>
+        <ExecutablePath />
+        <IncludePath />
+        <ReferencePath />
+        <LibraryPath />
+        <LibraryWPath />
+        <SourcePath></SourcePath>
+        <ExcludePath />
+    </PropertyGroup>
+    <ItemGroup>
+        <ClInclude Include=".\Control.Applicative\Applicative.hh" />
+        <ClInclude Include=".\Control.Apply\Apply.hh" />
+        <ClInclude Include=".\Control.Apply\Apply_ffi.hh" />
+        <ClInclude Include=".\Control.Bind\Bind.hh" />
+        <ClInclude Include=".\Control.Bind\Bind_ffi.hh" />
+        <ClInclude Include=".\Control.Category\Category.hh" />
+        <ClInclude Include=".\Control.Monad\Monad.hh" />
+        <ClInclude Include=".\Control.Monad.Eff\Eff.hh" />
+        <ClInclude Include=".\Control.Monad.Eff\Eff_ffi.hh" />
+        <ClInclude Include=".\Control.Monad.Eff.Class\Class.hh" />
+        <ClInclude Include=".\Control.Monad.Eff.Console\Console.hh" />
+        <ClInclude Include=".\Control.Monad.Eff.Console\Console_ffi.hh" />
+        <ClInclude Include=".\Control.Monad.Eff.Unsafe\Unsafe.hh" />
+        <ClInclude Include=".\Control.Monad.Eff.Unsafe\Unsafe_ffi.hh" />
+        <ClInclude Include=".\Control.Semigroupoid\Semigroupoid.hh" />
+        <ClInclude Include=".\Data.Boolean\Boolean.hh" />
+        <ClInclude Include=".\Data.BooleanAlgebra\BooleanAlgebra.hh" />
+        <ClInclude Include=".\Data.Bounded\Bounded.hh" />
+        <ClInclude Include=".\Data.Bounded\Bounded_ffi.hh" />
+        <ClInclude Include=".\Data.CommutativeRing\CommutativeRing.hh" />
+        <ClInclude Include=".\Data.Eq\Eq.hh" />
+        <ClInclude Include=".\Data.Eq\Eq_ffi.hh" />
+        <ClInclude Include=".\Data.EuclideanRing\EuclideanRing.hh" />
+        <ClInclude Include=".\Data.EuclideanRing\EuclideanRing_ffi.hh" />
+        <ClInclude Include=".\Data.Field\Field.hh" />
+        <ClInclude Include=".\Data.Function\Function.hh" />
+        <ClInclude Include=".\Data.Functor\Functor.hh" />
+        <ClInclude Include=".\Data.Functor\Functor_ffi.hh" />
+        <ClInclude Include=".\Data.HeytingAlgebra\HeytingAlgebra.hh" />
+        <ClInclude Include=".\Data.HeytingAlgebra\HeytingAlgebra_ffi.hh" />
+        <ClInclude Include=".\Data.NaturalTransformation\NaturalTransformation.hh" />
+        <ClInclude Include=".\Data.Ord\Ord.hh" />
+        <ClInclude Include=".\Data.Ord\Ord_ffi.hh" />
+        <ClInclude Include=".\Data.Ord.Unsafe\Unsafe.hh" />
+        <ClInclude Include=".\Data.Ord.Unsafe\Unsafe_ffi.hh" />
+        <ClInclude Include=".\Data.Ordering\Ordering.hh" />
+        <ClInclude Include=".\Data.Ring\Ring.hh" />
+        <ClInclude Include=".\Data.Ring\Ring_ffi.hh" />
+        <ClInclude Include=".\Data.Semigroup\Semigroup.hh" />
+        <ClInclude Include=".\Data.Semigroup\Semigroup_ffi.hh" />
+        <ClInclude Include=".\Data.Semiring\Semiring.hh" />
+        <ClInclude Include=".\Data.Semiring\Semiring_ffi.hh" />
+        <ClInclude Include=".\Data.Show\Show.hh" />
+        <ClInclude Include=".\Data.Show\Show_ffi.hh" />
+        <ClInclude Include=".\Data.Unit\Unit.hh" />
+        <ClInclude Include=".\Data.Unit\Unit_ffi.hh" />
+        <ClInclude Include=".\Data.Void\Void.hh" />
+        <ClInclude Include=".\Main\Main.hh" />
+        <ClInclude Include=".\Prelude\Prelude.hh" />
+        <ClInclude Include=".\Prelude\Prelude_ffi.hh" />
+        <ClInclude Include=".\PureScript\PureScript.hh" />
+        <ClInclude Include=".\PureScript\purescript_memory.hh" />
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include=".\Control.Applicative\Applicative.cc" />
+        <ClCompile Include=".\Control.Apply\Apply.cc" />
+        <ClCompile Include=".\Control.Apply\Apply_ffi.cc" />
+        <ClCompile Include=".\Control.Bind\Bind.cc" />
+        <ClCompile Include=".\Control.Bind\Bind_ffi.cc" />
+        <ClCompile Include=".\Control.Category\Category.cc" />
+        <ClCompile Include=".\Control.Monad\Monad.cc" />
+        <ClCompile Include=".\Control.Monad.Eff\Eff.cc" />
+        <ClCompile Include=".\Control.Monad.Eff.Class\Class.cc" />
+        <ClCompile Include=".\Control.Monad.Eff.Console\Console.cc" />
+        <ClCompile Include=".\Control.Monad.Eff.Unsafe\Unsafe.cc" />
+        <ClCompile Include=".\Control.Semigroupoid\Semigroupoid.cc" />
+        <ClCompile Include=".\Data.Boolean\Boolean.cc" />
+        <ClCompile Include=".\Data.BooleanAlgebra\BooleanAlgebra.cc" />
+        <ClCompile Include=".\Data.Bounded\Bounded.cc" />
+        <ClCompile Include=".\Data.Bounded\Bounded_ffi.cc" />
+        <ClCompile Include=".\Data.CommutativeRing\CommutativeRing.cc" />
+        <ClCompile Include=".\Data.Eq\Eq.cc" />
+        <ClCompile Include=".\Data.Eq\Eq_ffi.cc" />
+        <ClCompile Include=".\Data.EuclideanRing\EuclideanRing.cc" />
+        <ClCompile Include=".\Data.Field\Field.cc" />
+        <ClCompile Include=".\Data.Function\Function.cc" />
+        <ClCompile Include=".\Data.Functor\Functor.cc" />
+        <ClCompile Include=".\Data.Functor\Functor_ffi.cc" />
+        <ClCompile Include=".\Data.HeytingAlgebra\HeytingAlgebra.cc" />
+        <ClCompile Include=".\Data.NaturalTransformation\NaturalTransformation.cc" />
+        <ClCompile Include=".\Data.Ord\Ord.cc" />
+        <ClCompile Include=".\Data.Ord\Ord_ffi.cc" />
+        <ClCompile Include=".\Data.Ord.Unsafe\Unsafe.cc" />
+        <ClCompile Include=".\Data.Ordering\Ordering.cc" />
+        <ClCompile Include=".\Data.Ring\Ring.cc" />
+        <ClCompile Include=".\Data.Semigroup\Semigroup.cc" />
+        <ClCompile Include=".\Data.Semiring\Semiring.cc" />
+        <ClCompile Include=".\Data.Show\Show.cc" />
+        <ClCompile Include=".\Data.Show\Show_ffi.cc" />
+        <ClCompile Include=".\Data.Unit\Unit.cc" />
+        <ClCompile Include=".\Data.Void\Void.cc" />
+        <ClCompile Include=".\Main\Main.cc" />
+        <ClCompile Include=".\Prelude\Prelude.cc" />
+        <ClCompile Include=".\PureScript\PureScript.cc" />
+    </ItemGroup>
+</Project>
